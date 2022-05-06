@@ -1,5 +1,5 @@
 {
-  "name": "node_weather_cli",
+  "name": "Simple Weather CLI",
   "version": "1.0.0",
   "description": "CLI to fetch weather info",
   "type": "module",
@@ -8,7 +8,12 @@
     "weather": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xsqox/weather_cli"
   },
   "author": "Kseniya Baluk",
   "license": "ISC",
